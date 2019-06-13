@@ -11,7 +11,7 @@ import ingame.GraphicTextItem;
 public class FatePanel3 extends FatePanel{
 	
 	private int pointsCount=0;
-    private int timeleft=29;
+    private int timeleft=19;
     private int time=0;
     private static int manY=780;
     private int manX=800;

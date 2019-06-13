@@ -15,12 +15,6 @@ public class Sound{
 			Clip clip = AudioSystem.getClip();
 			clip.open(audio);
 			clip.start();
-			//vol
-			if(soundPath.equals("/rolling.wav")) {
-				FloatControl gain = (FloatControl)clip.getControl(FloatControl.Type.MASTER_GAIN);
-				float db = (float)-20.0;
-				gain.setValue(db);
-			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
